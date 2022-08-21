@@ -1,0 +1,586 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+/* Heading */
+.logo img{
+    width: 70px;
+    border-radius: 100px;
+}
+
+.hehe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 78px;
+}
+.ok ul{
+    display: flex;
+}
+.ok ul li{
+    list-style: none;
+    display: block;
+    margin-left: 2rem;
+    align-items: right;
+}
+.ok li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 3px 30px;
+    align-items: center;
+    margin-top: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ok li a:hover{
+    color: red;
+}
+#dude{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-left: 3rem;
+    font-size: 1rem;
+    transition: all .3s ease;
+}    
+#dude:hover{
+    background-color: rgb(34, 3, 34);
+    transform: translateY(-5px);
+}
+header{
+    background-image: linear-gradient(to right, black 60%, rgb(34, 3, 34));
+    box-shadow: 0 0 8px 0 rgb(37, 2, 37);
+}
+
+/* Part 1*/
+.left img{
+    width: 600px;
+    margin: 2rem 3rem;
+}
+
+.man{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.yee{
+    /* padding: 10px 10px; */
+    align-items: center;
+}
+
+.right h6{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.right h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.right h5{
+    font-size: 20px;
+}
+.yolo{
+    /* background-image: url(https://cdn.wallpapersafari.com/59/75/NUwFBV.jpg); */
+    background-color: black;
+}
+
+.man{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+ .right .letter{
+    padding: 10px 10px;
+    margin-top: 10rem;
+ }
+
+.boi #muhaha{
+    padding: 10px 30px;
+    border: 2px solid white;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 2rem;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+
+#muhaha:hover{
+    background-color: purple;
+    transform: translateY(-5px);
+}
+
+#chu{
+    color: purple;
+}
+
+
+/*     Part 2   */
+
+.dio{
+    background-color: black;
+}
+#tw{
+    color: red;
+}
+#oh{
+    color: purple;
+}
+.stand h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.stand p{
+    font-size: 20px;
+    text-align: center;
+}
+.hamon{
+    display: flex;
+    justify-content: space-between;
+}
+/* services box */
+.joseph img{
+    width: 90px;
+    display: block;
+    margin: 2rem auto;
+}
+.erina img{
+    width: 80px;
+    display: block;
+    margin: 2rem auto;
+}
+.jojo img{
+    width: 80px;
+    display: block;
+    margin: 2rem auto;
+}
+
+.dame{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    margin: 1rem 2rem;
+}
+.joseph h3{
+    font-size: 35px;
+    text-align: center;
+}
+.joseph p{
+    font-size: 22px;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+.erina h3{
+    font-size: 35px;
+    text-align: center;
+}
+.erina p{
+    font-size: 22px;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+.jojo h3{
+    font-size: 35px;
+    text-align: center;
+}
+.jojo p{
+    font-size: 22px;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+
+.neko .nyan{
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 100px;
+    transition: all .3s ease;
+    display: block;
+    margin: 1rem auto;
+}
+.nyan:hover{
+    background-color: red;
+    transform: translateY(-5px);
+}
+.inu .ka{
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 100px;
+    transition: all .3s ease;
+    display: block;
+    margin: 1rem auto;
+}
+.ka:hover{
+    background-color: red;
+    transform: translateY(-5px);
+}
+.muah .Hameha{
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 100px;
+    transition: all .3s ease;
+    display: block;
+    margin: 1rem auto;
+}
+.Hameha:hover{
+    background-color: red;
+    transform: translateY(-5px);
+}
+
+
+/* Part Three */
+
+.sao{
+    margin-top: 3rem;
+    /* background-image: url(https://cdn.wallpapersafari.com/59/75/NUwFBV.jpg); */
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700332129.jpg);
+}
+.kirito{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.asuna img{
+    width: 400px;
+    border-radius: 50px;
+    border: 2px solid white;
+    animation-name: brando;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+@keyframes brando{
+    0%{
+        border-color:red; 
+    }
+    5%{
+        border-color: #330000;
+    }
+    10%{
+        border-color:purple;
+    }
+    15%{
+        border-color: #FF66FF;
+    }
+    20%{
+        border-color: #FFFF99;
+    }
+    25%{
+        border-color: #660033;
+    }
+    30%{
+        border-color:yellow;
+    }
+    40%{
+        border-color:#FF00FF;
+    }
+    50%{
+        border-color:white;
+    }
+    60%{
+        border-color:green;
+    }
+    70%{
+        border-color:blue;
+    }
+    80%{
+        border-color:#000066;
+    }
+    90%{
+        border-color:#FF0033;
+    }
+    100%{
+        border-color:aqua;
+    }
+}
+.idk h1{
+    font-size: 3rem;
+}
+.idk h3{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.idk p{
+    font-size: 1.5rem;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 1rem;
+}
+#black{
+    color: purple;
+}
+#white{
+    color: red;
+}
+.idk{
+    margin: 6rem 2rem;
+    align-items: center;
+}
+.wah .sniff{
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-top: 2rem;
+    transition: all .3s ease;
+}
+
+.sniff:hover{
+    background-color: purple;
+    transform: translateY(-5px);
+}
+
+/* Part Four */
+.nope{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.kisama h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.kisama p{
+    font-size: 20px;
+    text-align: center;
+}
+#pam{
+    color: red;
+}
+#dam{
+    color: purple;
+}
+.mudada{
+    display: flex;
+    justify-content: center;
+}
+.final img{
+    width: 130px;
+    display: block;
+    margin: 1rem auto;
+}
+.final p{
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+.flash img{
+    width: 130px;
+    display: block;
+    margin: 1rem auto;
+}
+.flash p{
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+.hakai img{
+    width: 105px;
+    display: block;
+    margin: 2.5rem auto;
+}
+.hakai p{
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+}
+.eyes{
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    margin: 2rem 1rem;
+    border-radius: 50px;
+}
+
+/* Part 5 */
+.lala h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.lala p{
+    font-size: 20px;
+    text-align: center;
+}
+#um{
+    color: red;
+}
+#hm{
+    color: purple;
+}
+.kudere img{
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 2rem;
+    transition: all .5s ease;
+}
+.kudere img:hover{
+    transform: scale(1.1);
+}
+.kudere p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.tsundere img{
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 2rem;
+    transition: all .5s ease;
+}
+.tsundere img:hover{
+    transform: scale(1.1);
+    /* border: 2px solid red; */
+}
+.tsundere p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.yandere{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+}
+
+/* Part 7 */
+/* .touch{
+    margin-top: 3rem; 
+    background-image: url(https://wallpaperaccess.com/full/2691194.jpg); 
+    background-image: url(https://wallpaperaccess.com/full/2413551.jpg);
+    margin-bottom: 2rem;
+} */
+.touch{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.mann h1{
+    /* font-size: 3rem; */
+    text-align: center;
+    font-size: 3rem;
+  background: -webkit-linear-gradient(#cc2b5e, #753a88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mann p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    /* font-size: 72px; */
+  background: -webkit-linear-gradient(#cc2b5e, #753a88);      
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sima .fune{
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: all .3s ease;
+}
+.fune:hover{
+    background-color: purple;
+    transform: translateY(-5px);
+}
+
+/* tehee */
+
+.dream img{
+    width: 70px;
+    border-radius: 100px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.dream h6{
+    font-size: 20px;
+    animation-name: doit;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+@keyframes doit{
+    0%{
+        color:red; 
+    }
+    5%{
+        color: #330000;
+    }
+    10%{
+        color:purple;
+    }
+    15%{
+        color: #FF66FF;
+    }
+    20%{
+        color: #FFFF99;
+    }
+    25%{
+        color: #660033;
+    }
+    30%{
+        color:yellow;
+    }
+    40%{
+        color:#FF00FF;
+    }
+    50%{
+        color:white;
+    }
+    60%{
+        color:green;
+    }
+    70%{
+        color:blue;
+    }
+    80%{
+        color:#000066;
+    }
+    90%{
+        color:#FF0033;
+    }
+    100%{
+        color:aqua;
+    }
+}
+
+.dream p{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+.techno{
+    display: flex;
+    justify-content: center;
+}
+.techno a{
+    font-size: 22px;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+}
+.ender p{
+    font-size: 10px;
+    text-align: center;
+}
